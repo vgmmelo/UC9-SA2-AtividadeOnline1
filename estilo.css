@@ -1,0 +1,697 @@
+
+@import url('https://fonts.googleapis.com/css2? family= The+Nautigal:wght@700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= The+Nautigal:wght@700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+     width: 100%;
+    /* background-color: rgb(18, 23, 38);  */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,28,1) 30%, rgba(0,212,255,1) 100%);
+    
+}
+
+#conteiner{
+    width: 1200px;
+    height: 150px;
+    /* background-color: #121725; */
+    /* padding: 10px ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,28,1) 30%, rgba(0,212,255,1) 100%); */ 
+     padding-bottom: 1px;
+}
+ /* .login{
+    margin: 1px;
+}  */
+
+.login ul , .login li{
+    display: flex;
+    font-weight: 600;
+    list-style: none;
+    text-align: center;
+    width: auto;
+    padding: 15px;
+    gap: 15px;
+    border-radius: 8px;
+   
+   
+   
+    
+    /* border: 1px solid blue; */
+
+} 
+.login a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'The Nautigal', cursive;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login li:hover{
+
+    background-color: rgba(123, 189, 233, 0.39); 
+}
+.login img{
+
+    width: 35px;
+}
+
+.banner{
+   
+    /* background-image: url("imagens/review_mad_max_chamada.jpg"); */
+    background-image: url("imagens/helicoptero.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.menunave{
+    display: flex;
+    align-self: flex-end;
+    
+   
+}
+.menu{
+    display: flex;align-items: flex-end;
+    width: auto;
+    padding: 15px;
+    gap: 15px;
+    
+
+    /* width: 400px;
+    height: 160px;
+    margin: 20px;
+    background-color:aliceblue */
+}
+
+nav ul, nav li{
+
+    list-style: none;
+}
+nav li{
+    font-size: 18px;
+}
+.menu a{
+
+    padding: 5px 10px;
+   
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-family: 'The Nautigal', cursive;
+
+}
+
+.menu a:hover{
+    
+    background-color: rgba(123, 189, 233, 0.39); 
+}
+
+
+.logo{
+    color: rgb(248, 246, 246);
+    font-size: 30px;
+    font-family: 'The Nautigal', cursive;
+    
+}
+
+.caixa-imagem  a{
+    text-decoration: none;
+}
+
+.caixa-imagem a h3{
+    
+    padding: 10px;
+}
+
+
+/* Lançamentos*/
+
+.secao-lancamento{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,28,1) 30%, rgba(0,212,255,1) 100%);
+   
+}
+
+.div-secao{
+    width: 1200px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;  
+
+}
+
+
+ #lancamento{
+    flex: 0;
+    
+    margin-left: 20px ;
+    margin-right: 20px;
+    font-family: 'The Nautigal', cursive;
+    color: #fcfcfc;
+    font-size: 018px;
+    
+   
+    
+}
+
+ #linha-a {
+
+    width: 100%;
+    
+    border: 1px solid #fcfcfc;
+
+}
+
+#linha-b{
+
+    border: 1px solid #fcfcfc;
+    width: 100%;
+} 
+
+.mais-vendido{
+    padding-top: 2000px;
+}
+
+#lancamento h3{
+    text-align: center;
+    width: 200px;
+
+}
+
+/*cards*/
+
+.card-lancamento{
+height: 700px;
+background-color: #F5F5F5;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.card{
+    width: 1200px;
+    height: 500px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:    space-between ;
+
+
+}
+.card .card-l{
+
+    width: 250px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    box-shadow: 7px 7px 7px 0 rgba(50, 50, 50, 0.22);
+    transition: all 0.3s ease-out;
+
+}
+
+.card .card-l:hover{
+
+    transform:translateY(-5px);
+    cursor: pointer;
+}
+
+.card .card-l .img-card1{
+    width: 155px;
+    height: 205px;
+    background-image: url("imagens/jogowatch.jpeg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 0 rgba(50, 50, 50, 0.15);
+}
+
+.card .card-l .img-card2{
+    width: 155px;
+    height: 205px;
+    background-image: url("imagens/MINECRAT_.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 0 rgba(50, 50, 50, 0.15);
+}
+
+.card .card-l .img-card3{
+    width: 155px;
+    height: 205px;
+    background-image: url("imagens/img03.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 0 rgba(50, 50, 50, 0.15);
+}
+
+.card .card-l .img-card4{
+    width: 155px;
+    height: 205px;
+    background-image: url("imagens/fifa.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 0 rgba(50, 50, 50, 0.15);
+}
+
+.card-l h2{
+    font-family: 'The Nautigal', cursiva;
+}
+
+.texto{
+    text-align: center;
+    font-weight: 400;
+}
+
+.texto .parcelamento{
+
+    font-weight: normal;
+}
+
+/* footer */
+
+footer{
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,3,28,1) 30%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.footer-caixa{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.menu-final{
+
+   
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+
+    }
+
+    .menu-final h2{
+
+        font-size: 18px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+    }
+
+    .menu-titulos {
+
+        border-bottom: 1px solid #fff;
+        padding: 5px;
+       
+        
+    }
+
+    .caixa-distancia{
+
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    .caixa-menu-titulo div a{
+        color: #fff;
+        text-decoration: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+    }
+
+    .footer-rede  {
+
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+      
+       width: 200px;
+        
+     } 
+
+    .footer-rede div {
+
+       margin: 5px;
+       
+    } 
+
+    .footer-rede div {
+
+      
+       text-align: center;
+        
+     }  
+
+     .footer-rede h2 {
+      
+        font-size: 18px;
+        color: #fff;
+        
+     } 
+
+    
+
+
+/*Login*/
+
+main{
+
+    width: 100%;
+    height: 500px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acesso{
+
+    width: 1200px;
+    
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-entrada{
+    width: 450px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 7px 0 rgba(50, 50, 50, 0.22);
+
+   
+}
+
+.login-entrada h2{
+    text-align: center;
+    color: #01B8E1;
+
+}
+
+
+
+.cadastro{
+    width: 450px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 7px 7px 0 rgba(50, 50, 50, 0.22);
+}
+
+.input-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    
+    
+
+}
+
+.input-login .caixa-login {
+
+        width: 300px;
+        padding: 15px;
+        outline:none ;
+        border: none;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+
+}
+
+.input-login .caixa-login:hover{
+    background-color: #cfe1f2;
+
+}
+
+
+
+#lembrete {
+    margin-top: 10px;
+    cursor: pointer;
+    color: #01B8E1;
+    font-weight: 500;
+   
+}
+
+.input-login .bot1{
+
+    /* width: 300px;
+    padding: 15px;
+    outline:none ;
+    border: none;
+    background-color: #f0efef;
+    border-radius: 10px; */
+    width: 300px;
+    background-color: #01B8E1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.input-login .bot1:hover{
+    background-color: #0889a5;
+}
+
+.cliente-novo{
+    color: #01B8E1;
+    font-weight: 500;
+}
+
+.cliente-novo a{
+    color: #01B8E1;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+.cliente-novo a:hover{
+   text-decoration: underline;
+    
+}
+
+#lembrete input{
+  border: none;
+}
+
+/*Cadastro inicial*/
+.main-cadastro{
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+ .acesso-cadastro{
+
+    width: 1200px;
+    height: auto;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+} 
+
+.cadastro-inicial{
+    width: 85%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+   gap:20px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 7px 0 rgba(50, 50, 50, 0.22);
+}
+
+
+.cadastro-inicial h2{
+    text-align: center;
+    color: #01B8E1;
+
+}
+
+ .cadastro-input{
+    display: flex;
+   
+    justify-content: space-between;
+
+
+    gap: 15px;
+    
+}
+
+.cadastro-input fieldset{
+
+    border: 1px solid #01B8E1;
+    padding: 20px;
+    width: 100%;
+}
+
+fieldset legend{
+
+    background-color: #cfe1f2;
+    padding: 3px 5px;
+    font-weight: 600;
+}
+/* 
+.cadastro-inicial input{
+
+    padding: 10px 5px;
+
+    width: 300px;
+    margin: 5px;
+    border: none;
+    background-color: #f5f6f7;
+    border-radius: 5px;
+} */
+
+#sexoM #sexoF{
+    width: 10px;
+}
+.dadosIniciais{
+padding: 10px 5px;
+
+    width: 300px;
+    margin: 5px;
+    border: none;
+    background-color: #f5f6f7;
+    border-radius: 5px;
+   
+     }
+
+     .sexo{
+
+        width: 300px;
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        
+     }
+     .sexo p{
+        margin: 8px 5px;
+       font-size: 18px;
+        font-weight: 500;
+        /* background-color:#f0f2f4; */
+         width: 50px; 
+        padding: 5px 0;
+        border-radius: 5px;
+      
+     }
+
+     .sexo  label{
+
+        padding: 0 5px;
+     }
+
+     .sexo div{
+        margin: 5px;
+     }
+     .nascimento{
+         display: flex;
+         width: 300px;
+         justify-content: space-between;
+         
+         padding: 15px 0;
+
+     }
+
+     /* .nascimento input{
+        border: 1px solid #01B8E1;
+     } */
+
+     .selecao{
+         padding: 5px;
+     }
+     .nascimento label{
+        margin-left: 5px;
+        font-size: 18px;
+        font-weight: 500;
+       
+        width: 300px;
+        padding: 5px 2px;
+        border-radius: 5px;
+    }
+
+    .bot-cadastro{
+        width: 300px;
+        background-color: #01B8E1;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    .bot-cadastro:hover{
+
+        background-color: #0695b5;
+    }
+
